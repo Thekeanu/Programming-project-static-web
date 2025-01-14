@@ -3,26 +3,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stijl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+VN&display=swap" rel="stylesheet">
+
     <title>Best movie recommendations</title>
 </head>
 <body>
     <nav>
-        <h1>Groovie Movie</h1>
-        <ul>
+        <a href="index.html" class="logo"><h1 class="playwrite">Groovie Movie</h1></a>
+        <ul class="kanit-400">
             <li><a href="index.html">Home</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Top movies</a></li>
-            <li><a href="">categories</a></li>
+            <li><a href="details.html">Contact</a></li>
+            <li><a href="details.html">Top movies</a></li>
+            <li><a href="details.html">categories</a></li>
+            <li><a href="details.html">Details</a></li>
         </ul>
     </nav>
-    <header>
+    <header class="kanit-400">
             <h1>Groovie Movie</h1>
             <h1>The grooviest movie guru</h1>
     </header>
-    <main>
-        <section>
-            <input type="text">
+    <main class="kanit-400">
+        <section class="intro">
+            <article >
+                <h2>Welcome to Groovy Movie</h2>
+                <p>Welcome to Groovy Movie—your ultimate destination for discovering the best films, handpicked just for you! Whether you're in the mood for a classic, a hidden gem, or the latest blockbuster, we've got you covered. Our curated movie recommendations are designed to help you find the perfect film, no matter the genre or occasion. So grab your popcorn, sit back, and let us guide you to your next great movie experience!</p>
+            </article>
+            <img src="images/side.jpg" alt="">
+        </section>
+        <section class="search">
+            <div>   
+            <h2>Search for a movie here.</h2>
+            <input type="text" id="search" placeholder="Search a movie">
+            </div>
+        </section>
+        <div class="titel">
+            <h2>Movies: </h2>
+        </div>
+        <section class="gallery">
+           <a href="details.html"> <div class="card">
+            <img src="images/movie1.jpg" alt="">
+            <h3>The Angry Man</h3>
+        </div></a>
+
+        <a href="details.html"> <div class="card">
+            <img src="images/movie2.jpg" alt="">
+            <h3>Growing Robot</h3>  
+        </div></a>
+
+        <a href="details.html"> <div class="card">
+            <img src="images/movie3.jpg" alt="">
+            <h3>The Angry Man</h3>
+        </div></a>
+
+        <a href="details.html"> <div class="card">
+            <img src="images/movie4.jpg" alt="">
+            <h3>The Sad Dog</h3>
+        </div></a>
+
+        <a href="details.html"> <div class="card">
+            <img src="images/movie5.jpg" alt="">
+            <h3>The Stranger</h3>
+        </div></a>
+
+
         </section>
     </main>
+    <footer>
+       <ul>
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">JobsPrivacy</a></li>
+        <li><a href="#">Conditions of Use</a></li>
+        <li><a href="#">Policy</a></li>
+        <li><a href="#">Privacy</a></li>
+       </ul>
+
+       <p>© Keanu Piras</p>
+    </footer>
 </body>
 </html>
