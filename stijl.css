@@ -80,6 +80,7 @@ header{
 main{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .kanit-400 {
@@ -158,14 +159,16 @@ main{
 
   .card{
         padding: 1%;
-       border-radius: 5px;
-        background-color: #8ECAE6   ;
+        background-color: #8ECAE6;
+        max-width: 300px;         
+        text-align: center;
+        border-radius: 8px; 
+        overflow: hidden;
   }
   
-  .card img {
-        height: 100%;
+  .card img {        
         width: 100%;
-        margin: 1% 0 1% 0 1%;
+       
         border-radius: 5px;
         z-index: 1;
   }
@@ -193,4 +196,30 @@ main{
   footer p{
     align-self: center;
     justify-self: center;
+  }
+
+  .info img{
+    width: 50%;
+    margin: 2%;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .info article {
+    color: #FB8500;
+    margin-top: 2%;
+  }
+
+  .info article p {
+    margin-top: 4%;
+    width: 60%;
+  }
+
+
+  article p + h2 {
+    margin-top: 5%;
+    
   }
