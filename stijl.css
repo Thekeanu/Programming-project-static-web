@@ -91,7 +91,7 @@ main{
 
   section{
     width: 100%;
-    height: 50vh;
+
   }
 
 .intro {
@@ -143,17 +143,15 @@ main{
   }
 
   .gallery{
-    width: 96%;
+    width: 100%;
     display: flex;
-    margin: 0 2% 0 2%;
-    flex-direction: row;
-    margin-bottom: 10%;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 2% 0 2%;  
     background-image: url(/images/backsearch.jpg);
   }
 
   .gallery a {
-    width: 20%;
+    width: 15%;
     margin-left: 1%;
   }
 
@@ -170,11 +168,9 @@ main{
         width: 100%;
        
         border-radius: 5px;
-        z-index: 1;
   }
 
   .card h3{
-        z-index: 5;
         color: #023047;
   }
 
@@ -187,6 +183,7 @@ main{
     background-color: #219EBC;
     padding-top: 5px;
     padding-bottom: 5px;
+    display: flex;
   }
 
   footer ul {
